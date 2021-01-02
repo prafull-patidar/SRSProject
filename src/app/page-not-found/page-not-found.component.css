@@ -1,0 +1,34 @@
+#not-found{
+    min-height:50vh;
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    font-size: 10rem;
+    color:red;
+}
+
+#suggestions{
+    width:60%;
+    text-align: left;
+    margin: 15px auto;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.zero{
+    animation:rotatezero 3s infinite reverse;
+}
+@keyframes rotatezero{
+    0%{font-size:6rem;}
+    25%{font-size:4rem}
+    50%{font-size:8rem}
+    75%{font-size:6rem}
+    100%{font-size:10rem}
+}

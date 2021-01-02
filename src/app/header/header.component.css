@@ -1,0 +1,17 @@
+.navbar {
+    background-color: rgba(0,0,0,0.8);
+    z-index:1;
+    position:sticky;
+    top:0%;
+}
+a{
+    color: whitesmoke;
+    margin: auto 10px;
+}
+a:hover{
+    color:white;
+    background-color: red;
+}
+.navbar-toggler-icon{
+    color:red;
+}

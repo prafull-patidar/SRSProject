@@ -1,0 +1,32 @@
+#prodList{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,300px));
+    grid-gap: 10px;
+    justify-content: space-around;
+}
+img{
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+    text-align: center;
+    margin: 10px auto;
+}
+.items{
+    text-align: center;
+}
+.card{
+    text-align: center;
+}
+
+a{
+    color:white;
+    background-color: red;
+    padding: 5px 7px;
+}
+.card-2-link{
+    color:white;
+    background-color: red;
+    padding: 5px 25px;
+}

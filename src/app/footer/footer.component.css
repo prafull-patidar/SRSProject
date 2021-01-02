@@ -1,0 +1,88 @@
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+footer{
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    min-height: 15%;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+    z-index:99;
+}
+#left-pannel{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 50%;
+}
+#center-pannel{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 15%;
+}#right-pannel{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center;
+}
+#right-pannel i{
+    color:white;
+    background-color: red;
+    border-radius: 100%;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+#center-pannel a{
+    color:white;
+    text-decoration: none;
+}
+.myIcon:hover{
+    transform:translateY(-5px);
+    color:red;
+}
+
+
+@media screen and (max-width:880px){
+    footer{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px auto;
+    }
+#left-pannel{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 20%;
+    margin-top: 10px;
+}
+#center-pannel{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+
+}
+#right-pannel{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+
+}
+}
