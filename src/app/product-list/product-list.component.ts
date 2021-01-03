@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-product-list',
@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
+  
 
-  constructor() { }
+  constructor(private renderer:Renderer2) { }
 
   ngOnInit(): void {
   }
 
+  show:boolean=false;
+  toggleClass(){
+    this.show=true;
+  }
+  removeClass(){
+    this.show = false;
+  }
 }

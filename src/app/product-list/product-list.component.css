@@ -18,6 +18,7 @@ img{
 }
 .card{
     text-align: center;
+    overflow: hidden;
 }
 
 a{
@@ -29,4 +30,15 @@ a{
     color:white;
     background-color: red;
     padding: 5px 25px;
+}
+.card-link-div-hidden{
+    visibility: hidden;
+    /* display: none; */
+}
+.card-link-div-show{
+    animation: myAnime 1s;
+}
+@keyframes myAnime{
+    0%{transform: translateY(40px);}
+    100%{transform: translateY(0px);}
 }
