@@ -20,8 +20,8 @@
 }
 
 img{
-    width: 45%;
-    height:45%;
+    width: 60%;
+    height:60%;
     animation:img-blink 3s cubic-bezier(0.075, 0.32, 0.165, 0.4) infinite reverse;
 }
 @keyframes img-blink{
@@ -66,8 +66,8 @@ img{
         text-align: center;
     }    
     img{
-        width: 60%;
-        height:60%;
+        width: 45%;
+        height:45%;
         animation:img-blink 3s cubic-bezier(0.075, 0.32, 0.165, 0.4) infinite reverse;
     }
     @keyframes img-blink{
@@ -78,3 +78,4 @@ img{
     }
     
 }
+
