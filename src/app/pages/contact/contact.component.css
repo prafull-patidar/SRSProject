@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-around;
     align-items: center;
-    grid-gap:30px;
+    grid-gap:0px;
    margin: 100px auto;
 }
 
@@ -12,15 +12,13 @@
     text-align: center;
     grid-column: 1/5;
     width:100%; 
-    border:1px solid grey;
+    border:1px solid black;
 }
 #lef-pannel img{
     object-fit: cover;
     width: 100%;
     height: 100%;   
 }
-
-
 
 #right-pannel{
     grid-column:1/4;
@@ -49,6 +47,8 @@ button{
 
     #right-pannel{
         grid-column:1/5;
+        text-align: center;
+        margin-top: 30px;
     }
 
     

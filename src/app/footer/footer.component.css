@@ -87,3 +87,11 @@ footer{
 
 }
 }
+
+
+/* ----------------------- */
+@media screen and (max-width:676px){
+    footer{
+    margin-top: 10px;
+    }
+}
