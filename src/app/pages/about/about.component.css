@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+#content{
+    font-family: 'Josefin Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100%,100%));
+    width: 80%;
+    justify-content: space-around;
+    margin:50px auto;
+    line-height: 2.3rem;
+}
+
+i{
+    color:rgba(255,2,3,0.8);
+}
+i:hover{
+    transform: rotateY(180deg);
+}
+span{
+    line-height: 1.7rem;
+}
+
+#first-div{
+    margin-bottom: 70px;
+}
+#second-div{
+
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+#video-content{
+    margin:100px 0px 50px 0px;
+}
+video{
+    width: 100%;
+}
