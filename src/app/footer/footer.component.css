@@ -49,6 +49,9 @@ footer{
     color:white;
     text-decoration: none;
 }
+.up-arrow{
+    margin:8px auto;
+}
 .myIcon:hover{
     transform:translateY(-5px);
     color:red;

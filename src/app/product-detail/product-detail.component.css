@@ -1,0 +1,48 @@
+#prodDetails{
+    width: 90%;
+    min-height: 50vh;
+    margin:100px auto 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50%,50%));
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left-panel{
+    align-content: center;
+    text-align: center;
+}
+
+img{
+    margin:auto 10px;
+}
+
+
+
+table{
+    width: 100%;
+}
+td{
+    padding: 15px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+#demo-button{
+    text-align: center;
+}
+
+@media screen and (max-width:862px){
+    #prodDetails{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(100%,100%));
+    }   
+    #right-panel{
+        margin-top: 50px;
+    }
+    td{
+        padding: 8px;
+    }
+}

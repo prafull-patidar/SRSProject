@@ -5,6 +5,7 @@
     grid-template-columns: repeat(auto-fit,minmax(150px,300px));
     grid-gap: 10px;
     justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
 }
 img{
     width:150px;
@@ -20,7 +21,10 @@ img{
     text-align: center;
     overflow: hidden;
 }
-
+.card-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
 a{
     color:white;
     background-color: red;

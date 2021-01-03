@@ -40,7 +40,10 @@ i{
 button{
     border-radius: 0px;
 }
+h1{
+    font-family: 'Josefin Sans', sans-serif;
 
+}
 /* -------------- */
 
 @media screen and (max-width:767px){
