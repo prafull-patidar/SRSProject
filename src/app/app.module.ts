@@ -14,6 +14,7 @@ import { PagesModule }  from './pages/pages.module';
 import { ProductListComponent } from './product-list/product-list.component';
 import { BannerComponent } from './banner/banner.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductDemoFormComponent } from './product-demo-form/product-demo-form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     PageNotFoundComponent,
     ProductListComponent,
     BannerComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ProductDemoFormComponent
   ],
   imports: [
     BrowserModule,

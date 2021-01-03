@@ -1,0 +1,20 @@
+#demo-form{
+    width: 90%;
+    margin:100px auto;
+    
+}
+
+.required{
+ font-weight: bold;
+}
+.required::after{
+    content:" *";
+    color:red;
+    font-size: 1.5rem;
+}
+
+button{
+    border-radius: 0px;
+    min-width: 11%;
+    min-height: 8%;
+}

@@ -1,0 +1,59 @@
+[33mcommit f0711177e87c7cbe4c720ebf174562697042ed45[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sun Jan 3 20:36:16 2021 +0530
+
+    product details page done
+
+[33mcommit fd4fdd26447bf7c44ad7dfc73f1dff3f19866c9a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sun Jan 3 17:53:00 2021 +0530
+
+    footer links aligned as responsive
+
+[33mcommit b20495fcfb5450d20869d2731f2eca7bfbb8b8fd[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sun Jan 3 16:04:48 2021 +0530
+
+    making about page
+
+[33mcommit bf0a0df35a187f2e43399f96aff6d4a6ba15bb96[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sun Jan 3 15:05:39 2021 +0530
+
+    work on contact page
+
+[33mcommit 648619a24790bb27c318acaae648f86b1d7244b1[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sun Jan 3 12:50:35 2021 +0530
+
+    making responsive header
+
+[33mcommit b986a0ccfcc17b13495d1a09239147659eab7801[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sun Jan 3 12:47:32 2021 +0530
+
+    making responsive banner and header
+
+[33mcommit a993a4d8761a2e4d33387addd7bfef1e2451e051[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sun Jan 3 12:22:09 2021 +0530
+
+    making responsive banner and contact page
+
+[33mcommit 618b6b5b4d83dd1f4af9be4841842386f1bd61b1[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Sat Jan 2 18:33:04 2021 +0530
+
+    wip
+
+[33mcommit e7ea0b570feb2c762e8c576948fd3c410588f7af[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Wed Dec 30 19:04:06 2020 +0530
+
+    Adding angular material and header component
+
+[33mcommit 65c83318638899ebeaaffb82705f11d3d5177214[m
+Author: prafull <prafull555patidar@gmail.com>
+Date:   Tue Dec 29 11:47:43 2020 +0530
+
+    First Commit

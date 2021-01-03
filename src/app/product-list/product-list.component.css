@@ -1,11 +1,11 @@
 #prodList{
-    width: 100%;
+    width: 90%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,300px));
     grid-gap: 10px;
     justify-content: space-around;
-    font-family: 'Josefin Sans', sans-serif;
+    margin: 100px auto;
 }
 img{
     width:150px;
@@ -21,10 +21,7 @@ img{
     text-align: center;
     overflow: hidden;
 }
-.card-title{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-}
+
 a{
     color:white;
     background-color: red;
@@ -36,13 +33,17 @@ a{
     padding: 5px 25px;
 }
 .card-link-div-hidden{
-    visibility: hidden;
-    /* display: none; */
+    animation: myAnimeHide 1s;
+    transform: translateY(50px);
+}
+@keyframes myAnimeHide{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(50px);}
 }
 .card-link-div-show{
     animation: myAnime 1s;
 }
 @keyframes myAnime{
-    0%{transform: translateY(40px);}
+    0%{transform: translateY(50px);}
     100%{transform: translateY(0px);}
 }
