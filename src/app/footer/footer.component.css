@@ -93,6 +93,13 @@ footer{
     justify-content: space-around;
     width: 100%;
     margin-top: 10px;
+    border:1px solid red;
+    text-align: center;
+}
+#right-pannel span{
+    margin-left: 20px;
+    text-align: center;
+    border:1px solid blue;
 }
 }
 
@@ -100,6 +107,6 @@ footer{
 /* ----------------------- */
 @media screen and (max-width:676px){
     footer{
-    margin-top: 10px;
+    margin-top: 20px;
     }
 }

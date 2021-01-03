@@ -7,6 +7,7 @@ import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import { AppComponent } from './app.component';
 import {ProductDetailComponent} from './product-detail/product-detail.component';
 import {ProductDemoFormComponent} from './product-demo-form/product-demo-form.component';
+import {DemoComponent} from './demo/demo.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'',pathMatch:'full'},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'about',component:AboutComponent},
   {path:'contact',component:ContactComponent} ]
   },
+  {path:'demo',component:DemoComponent},
   {path:'product-demo',component:ProductDemoFormComponent},
   {path:'product-detail',component:ProductDetailComponent},
   {path:'**',component:PageNotFoundComponent}

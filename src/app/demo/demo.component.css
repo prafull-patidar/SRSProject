@@ -1,0 +1,36 @@
+#demo{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmaxc(100%,100%));
+    margin: 100px auto;
+    
+}
+
+video{
+    width: 100%;
+    min-height: 20vh;
+}
+.video-div{
+    position: relative;
+}
+i{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 6rem;
+    color:rgba(255,253,250,0.4);
+    font-weight: lighter;
+    z-index: 3;
+}
+
+@media screen and (max-width:767px){
+    i{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:450px){
+    i{
+        font-size: 2.5rem;
+    }
+}

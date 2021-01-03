@@ -8,7 +8,10 @@ a{
     color: whitesmoke;
     margin: auto 10px;
 }
-a:hover{
+.navbar-brand:hover{
+    color: red;
+}
+.nav-item a:hover{
     color:white;
     background-color: red;
 }

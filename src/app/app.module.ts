@@ -15,6 +15,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { BannerComponent } from './banner/banner.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductDemoFormComponent } from './product-demo-form/product-demo-form.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProductDemoFormComponent } from './product-demo-form/product-demo-form.
     ProductListComponent,
     BannerComponent,
     ProductDetailComponent,
-    ProductDemoFormComponent
+    ProductDemoFormComponent,
+    DemoComponent
   ],
   imports: [
     BrowserModule,
