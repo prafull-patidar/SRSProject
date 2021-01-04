@@ -70,15 +70,15 @@ h2{
         text-align: center;
     }    
     img{
-        width: 45%;
-        height:45%;
+        width: 55%;
+        height:55%;
         animation:img-blink 3s cubic-bezier(0.075, 0.32, 0.165, 0.4) infinite reverse;
     }
     @keyframes img-blink{
-        0%{width:48%;height:48%}
-    50%{width:40%;height:40%}
-    75%{width:48%;height:48%}
-    100%{width:40%;height:40%}
+        0%{width:58%;height:58%}
+    50%{width:55%;height:55%}
+    75%{width:58%;height:58%}
+    100%{width:55%;height:55%}
     }
     
 }

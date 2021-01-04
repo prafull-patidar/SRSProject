@@ -3,9 +3,13 @@
     height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,300px));
-    grid-gap: 10px;
+    grid-gap: 2px;
     justify-content: space-around;
     margin: 100px auto;
+}
+.card-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:1.5rem;
 }
 img{
     width:150px;
@@ -47,3 +51,5 @@ a{
     0%{transform: translateY(50px);}
     100%{transform: translateY(0px);}
 }
+
+
