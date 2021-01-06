@@ -1,5 +1,5 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
-
+import { ProductItems } from '../productModal/productData';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -8,9 +8,11 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 export class ProductListComponent implements OnInit {
   
 
-  constructor(private renderer:Renderer2) { }
+  constructor(private renderer:Renderer2, private prodimg:ProductItems) { }
 
-  ngOnInit(): void {
+  productImg:[];
+  ngOnInit(){
+    this.productImg = this.prodimg.products;
   }
 
   show:boolean=false;

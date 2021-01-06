@@ -17,7 +17,7 @@ const routes: Routes = [
   },
   {path:'demo',component:DemoComponent},
   {path:'product-demo',component:ProductDemoFormComponent},
-  {path:'product-detail',component:ProductDetailComponent},
+  {path:'product-detail/:id',component:ProductDetailComponent},
   {path:'**',component:PageNotFoundComponent}
 ];
 

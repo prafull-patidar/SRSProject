@@ -17,6 +17,10 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ProductDemoFormComponent } from './product-demo-form/product-demo-form.component';
 import { DemoComponent } from './demo/demo.component';
 
+import {ProductItems} from './productModal/productData';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +42,7 @@ import { DemoComponent } from './demo/demo.component';
     BrowserAnimationsModule,
     NgbModule
   ],
-  providers: [],
+  providers: [ProductItems],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
