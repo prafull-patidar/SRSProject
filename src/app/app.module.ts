@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
@@ -42,7 +42,7 @@ import {ProductItems} from './productModal/productData';
     BrowserAnimationsModule,
     NgbModule
   ],
-  providers: [ProductItems],
+  providers: [ProductItems, Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
